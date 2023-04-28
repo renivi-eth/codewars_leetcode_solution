@@ -20,8 +20,8 @@ console.log(arr);
 
 // Алгоритм бинарного поиска
 function binarySearch(array, el) {
-  let low = 0;
-  let high = array.length - 1;
+  let low = 0; // начальная длинна массива
+  let high = array.length - 1; // максимальная длинна массива
   while (low <= high) {
     let mid = Math.floor((low + high) / 2);
     if (arr[mid] === el) {
@@ -32,7 +32,7 @@ function binarySearch(array, el) {
       high = mid - 1; // сдвигаем диапазаон поиска ВЛЕВО
     }
   }
-  return -1; // если в цикле не находим, выходим и возвращаем -1
+  return `Ты долбаеб? Такого: ${el} нет в массиве`; // если в цикле не находим, выходим и возвращаем -1
 }
 
-console.log(binarySearch(arr, 15));
+console.log(binarySearch(arr, 12123));
