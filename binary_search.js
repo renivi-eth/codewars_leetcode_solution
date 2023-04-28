@@ -19,7 +19,20 @@ addEl();
 console.log(arr);
 
 // Алгоритм бинарного поиска
-function binarySearch(array) {
-  const low = 0;
-  const high = array.length - 1;
+function binarySearch(array, el) {
+  let low = 0;
+  let high = array.length - 1;
+  while (low <= high) {
+    let mid = Math.floor((low + high) / 2);
+    if (arr[mid] === el) {
+      return mid;
+    } else if (arr[mid] < el) {
+      low = mid + 1; // сдвигаем диапазон поиска ВПРАВО
+    } else {
+      high = mid - 1; // сдвигаем диапазаон поиска ВЛЕВО
+    }
+  }
+  return -1; // если в цикле не находим, выходим и возвращаем -1
 }
+
+console.log(binarySearch(arr, 15));
