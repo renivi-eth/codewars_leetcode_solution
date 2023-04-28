@@ -1,1 +1,3 @@
 # grokking_algorithms
+
+## Structrue
