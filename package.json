@@ -4,7 +4,8 @@
   "description": "Learn Algo",
   "main": "binary_search.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon grokking_algorithms/binary_search.js"
   },
   "repository": {
     "type": "git",

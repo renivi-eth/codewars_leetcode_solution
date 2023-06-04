@@ -1,5 +1,18 @@
 // Theory in Notion
 
+// Linear Search
+// O(n)
+const newArr = [2, 4, 6, 8, 10, 12];
+function linearSearch(array, number) {
+  for (let i = 0; i < array.length; i++) {
+    if (number === array[i]) {
+      return `i = ${i} number = ${array[i]}`;
+    }
+  }
+  return false;
+}
+console.log(linearSearch(newArr, 2));
+
 // Алгоритм бинарного поиска
 
 /* 
@@ -35,4 +48,4 @@ function binarySearch(array, el) {
   return `Ты долбаеб? Такого: ${el} нет в массиве`; // если в цикле не находим, выходим и возвращаем -1
 }
 
-console.log(binarySearch(arr, 12123));
+console.log(binarySearch(arr, 1133));
