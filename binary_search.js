@@ -1,5 +1,4 @@
 // Theory in Notion
-
 // Linear Search
 // O(n)
 const newArr = [2, 4, 6, 8, 10, 12];
