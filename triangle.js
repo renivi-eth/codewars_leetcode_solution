@@ -11,5 +11,5 @@ function isTriangle(a, b, c) {
   return false;
 }
 
-console.log(isTriangle(2, 2, 2``));
+console.log(isTriangle(2, 2, 2));
 console.log(isTriangle(7, 2, 2));
