@@ -2,10 +2,10 @@
   "name": "grokking_algorithms",
   "version": "1.0.0",
   "description": "Learn Algo",
-  "main": "binary_search.js",
+  "main": "Disemvowel Trolls.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon "
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
