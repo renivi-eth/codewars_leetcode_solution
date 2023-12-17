@@ -1,5 +1,5 @@
 {
-  "name": "grokking_algorithms",
+  "name": "codewars",
   "version": "1.0.0",
   "description": "Solution Codewars kata",
   "main": "",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EgorIvin/grokking_algorithms.git"
+    "url": "git+https://github.com/EgorIvin/codewars.git"
   },
   "keywords": [
     "#alg"
@@ -16,7 +16,7 @@
   "author": "renivi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EgorIvin/grokking_algorithms/issues"
+    "url": "https://github.com/EgorIvin/codewars/issues"
   },
-  "homepage": "https://github.com/EgorIvin/grokking_algorithms#readme"
+  "homepage": "https://github.com/EgorIvin/codewars#readme"
 }
