@@ -1,10 +1,9 @@
 {
   "name": "grokking_algorithms",
   "version": "1.0.0",
-  "description": "Learn Algo",
-  "main": "Disemvowel Trolls.js",
+  "description": "Solution Codewars kata",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
   },
   "repository": {
