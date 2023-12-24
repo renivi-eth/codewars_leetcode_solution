@@ -1,7 +1,7 @@
 {
   "name": "codewars",
   "version": "1.0.0",
-  "description": "Solution Codewars kata",
+  "description": "Solution Codewars kata / LeetCode",
   "main": "",
   "scripts": {
     "dev": "nodemon"
@@ -20,3 +20,4 @@
   },
   "homepage": "https://github.com/EgorIvin/codewars#readme"
 }
+s
