@@ -1,8 +1,4 @@
-/*
-Write a function that takes a single string (word) as argument. The function must return an ordered list containing the indexes of all capital letters in the string.
-*/
-
-// Для тупых
+// Глупо:
 var capitals = function (word) {
   const res = [];
   const upper = word.toUpperCase().split("");
@@ -22,9 +18,9 @@ var capitals = function (word) {
   return res.sort();
 };
 
-console.log(capitals("EfweFasesadfSAsd"));
+console.log(capitals("LOL"));
 
-// Для умных
+// Умнее:
 function forSmart(word) {
   const res = [];
   for (let i = 0; i < word.length; i++) {
@@ -35,4 +31,4 @@ function forSmart(word) {
   return res;
 }
 
-console.log(forSmart("sadasdSADsd"));
+console.log(forSmart("Lord Of The Rings"));
