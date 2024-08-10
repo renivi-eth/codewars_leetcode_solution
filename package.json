@@ -2,9 +2,11 @@
   "name": "codewars",
   "version": "1.0.0",
   "description": "Solution Codewars kata / LeetCode",
-  "main": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon"
+    "js": "nodemon",
+    "dev": "npx nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/EgorIvin/codewars/issues"
   },
-  "homepage": "https://github.com/EgorIvin/codewars#readme"
+  "homepage": "https://github.com/EgorIvin/codewars#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
 }
