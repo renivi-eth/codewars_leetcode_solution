@@ -1,3 +1,5 @@
-![CodeWars](https://www.codewars.com/users/renivi/badges/large)
+```bash
 
-https://leetcode.com/u/renivi/
+npm run start ./dist/{SCRIPT_NAME}
+
+```

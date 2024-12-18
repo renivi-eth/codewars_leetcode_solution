@@ -1,31 +1,18 @@
 {
-  "name": "codewars",
+  "name": "training",
   "version": "1.0.0",
-  "description": "Solution Codewars kata / LeetCode",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "js": "nodemon",
-    "dev": "npx nodemon"
+    "start": "tsc && node "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EgorIvin/codewars.git"
-  },
-  "keywords": [
-    "#alg"
-  ],
-  "author": "renivi",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EgorIvin/codewars/issues"
-  },
-  "homepage": "https://github.com/EgorIvin/codewars#readme",
+  "description": "",
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "nodemon": "^3.1.1",
-    "prettier": "3.3.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }

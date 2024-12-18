@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "lib": ["ES6"],
-    "module": "NodeNext",
-    "rootDir": "./ts",
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "outDir": "./build",
+    "module": "commonjs",
+    "declaration": true,
     "removeComments": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./TS",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
     "noImplicitAny": true,
-    "skipLibCheck": true
-  },
-  "include": ["ts/*"],
-  "exclude": ["node_modules"],
-  "lib": ["esnext"],
-  "ts-node": {
-    "esm": true
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "paths": {}
   }
 }
