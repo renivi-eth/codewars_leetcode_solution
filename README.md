@@ -1,5 +1,6 @@
 ```bash
 
-npm run start ./dist/{SCRIPT_NAME}
+tsx __filename.ts__
+node __filename.js__
 
 ```
