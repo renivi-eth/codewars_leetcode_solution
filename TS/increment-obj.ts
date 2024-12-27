@@ -4,15 +4,18 @@ type Counter = {
   reset: () => number;
 };
 
+/**
+ * Не забывать, работать с текущим состоянием результирующей переменной, а не начальным  значением init внутри первоначальной функции
+ */
 function createCounter(init: number): Counter {
   let res: number = init;
   return {
     increment: () => {
-      res = init + 1;
+      res = res + 1;
       return res;
     },
     decrement: () => {
-      res = init - 1;
+      res = res - 1;
       return res;
     },
     reset: () => {
@@ -33,6 +36,3 @@ function clos() {
     console.log(a);
   };
 }
-
-const cl = clos();
-cl();
