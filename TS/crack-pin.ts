@@ -18,7 +18,6 @@ export function crack(pass: string): string {
 }
 
 // console.log(crack('827ccb0eea8a706c4c34a16891f84e7b')); // 12345
-
 function testPadStart() {
   for (let i = 0; i < 100; i++) {
     const pass = String(i).padStart(5, '0');
