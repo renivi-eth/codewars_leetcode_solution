@@ -1,7 +1,7 @@
 type Fn = (n: number, i: number) => any;
 
 /**
- * Функцию можно переписать через reduce()
+ * Функцию можно переписать через reduce() - https://leetcode.com/problems/filter-elements-from-array/?envType=study-plan-v2&envId=30-days-of-javascript
  */
 function filter(arr: number[], fn: Fn): number[] {
   // Создание пустого массива для хранения отфильтрованных значений
