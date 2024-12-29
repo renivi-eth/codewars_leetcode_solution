@@ -1,5 +1,8 @@
 type Fn = (n: number, i: number) => any;
 
+/**
+ * Функцию можно переписать через reduce()
+ */
 function filter(arr: number[], fn: Fn): number[] {
   // Создание пустого массива для хранения отфильтрованных значений
   const filtredArr = [];
