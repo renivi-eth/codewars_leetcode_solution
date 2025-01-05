@@ -6,12 +6,12 @@
   [1, 1, 1, 1, 1],
 ];
 
-function spiralize(size) {
-  const matrix = Array(size)
-    .fill([])
-    .map(() => Array(size).fill(0));
+// function spiralize(size) {
+//   const matrix = Array(size)
+//     .fill([])
+//     .map(() => Array(size).fill(0));
 
-  return matrix;
-}
+//   return matrix;
+// }
 
-console.log(spiralize(5));
+// console.log(spiralize(5));
