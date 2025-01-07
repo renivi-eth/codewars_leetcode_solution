@@ -2,20 +2,17 @@
 Допустим, нам надо получить данные по пользвателю с сервера
 */
 function getUserData(callback) {
-  setTimeout(() => {
-    const userData = { id: 1, age: 24, name: 'Alex' };
-    // В случае
-  }, 1000);
+    setTimeout(function () {
+        var userData = { id: 1, age: 24, name: 'Alex' };
+        // В случае
+    }, 1000);
 }
-
 function run() {
-  return getUserData((userData) => {
-    console.log(userData);
-  });
+    return getUserData(function (userData) {
+        console.log(userData);
+    });
 }
-
 console.log(run());
-
 /**
 1. Мы создаем функцию getUserData, которая запрашивает данные с сервера (допустим, это будет через таймер),
 2. Функция принимает аругмент в виде коллбека (мы пока не знаем что там будет по факту)
