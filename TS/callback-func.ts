@@ -4,7 +4,7 @@
 function getUserData(callback) {
   setTimeout(() => {
     const userData = { id: 1, age: 24, name: 'Alex' };
-    // В случае
+    callback(userData);
   }, 1000);
 }
 
