@@ -1,7 +1,9 @@
 /**
 Допустим, нам надо получить данные по пользвателю с сервера
 */
-function getUserData(callback) {
+type FnTypeCallback = (data: {}) => void;
+
+function getUserData(callback: FnTypeCallback) {
   setTimeout(() => {
     const userData = { id: 1, age: 24, name: 'Alex' };
     callback(userData);
