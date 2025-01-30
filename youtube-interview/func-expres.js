@@ -4,3 +4,9 @@ const funcExpression = function () {
 
 console.log(funcExpression);
 console.log(funcExpression());
+
+console.log(`
+${funcExpression()} - вызов;
+
+${funcExpression} - тело функции
+`);
